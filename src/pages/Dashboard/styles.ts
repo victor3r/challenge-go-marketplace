@@ -11,10 +11,10 @@ interface Product {
 export const Container = styled.SafeAreaView`
   flex: 1;
   align-items: center;
+  /* background: ${props => props.theme.background}; */
 `;
 
 export const ProductContainer = styled.View`
-  border-radius: 5px;
   margin-top: 60px;
   flex: 1;
   flex-direction: row;

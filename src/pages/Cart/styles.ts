@@ -1,19 +1,27 @@
 import styled from 'styled-components/native';
 import { FlatList } from 'react-native';
 
+interface Product {
+  id: string;
+  title: string;
+  image_url: string;
+  price: number;
+  quantity: number;
+}
+
 export const Container = styled.SafeAreaView`
   flex: 1;
   align-items: center;
+  /* background: ${props => props.theme.background}; */
 `;
 
 export const ProductContainer = styled.View`
-  border-radius: 5px;
   margin-top: 60px;
   flex: 1;
   flex-direction: row;
 `;
 
-export const ProductList = styled(FlatList)`
+export const ProductList = styled(FlatList as new () => FlatList<Product>)`
   flex: 1;
   padding: 0 10px;
 `;
@@ -34,6 +42,7 @@ export const ProductImage = styled.Image`
 export const ProductTitleContainer = styled.View`
   font-size: 16px;
   margin-left: 5px;
+  flex: 1;
 `;
 
 export const ProductTitle = styled.Text`

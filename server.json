@@ -1,28 +1,52 @@
 {
   "products": [
     {
-      "id": "123",
-      "title": "Nome do produto 01",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 50
+      "id": "1",
+      "title": "Processador Intel Core i5-9600K",
+      "image_url": "https://images5.kabum.com.br/produtos/fotos/98765/processador-intel-core-i5-9600k-coffee-lake-refresh-cache-9mb-3-7ghz-4-6ghz-max-turbo-lga-1151-bx80684i59600k_1583956299_gg.jpg",
+      "price": 1600
     },
     {
-      "id": "1234",
-      "title": "Nome do produto 02",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 60
+      "id": "2",
+      "title": "Cadeira Gamer",
+      "image_url": "https://images6.kabum.com.br/produtos/fotos/113816/cadeira-gamer-fortrek-blackfire-black-70505_1591714454_gg.jpg",
+      "price": 850
     },
     {
-      "id": "12345",
-      "title": "Nome do produto 03",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 70
+      "id": "3",
+      "title": "Placa de Vídeo Gigabyte NVIDIA GeForce RTX 2060",
+      "image_url": "https://images5.kabum.com.br/produtos/fotos/109805/placa-de-video-gigabyte-nvidia-geforce-rtx-2060-oc-6gb-gddr6-rev-2-0-gv-n2060oc-6gd_1580408234_gg.jpg",
+      "price": 2576
     },
     {
-      "id": "123456",
-      "title": "Nome do produto 04",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 80
+      "id": "4",
+      "title": "Notebook Asus AMD",
+      "image_url": "https://images0.kabum.com.br/produtos/fotos/111540/notebook-gamer-asus-amd-ryzen-5-2500u-gtx-1050-8gb-1tb-windows-10-home-m509da_1583853005_gg.jpg",
+      "price": 3599
+    },
+    {
+      "id":"5",
+      "title":"Smartphone Samsung Galaxy A31",
+      "image_url":"https://images8.kabum.com.br/produtos/fotos/113658/smartphone-samsung-galaxy-a31-128gb-48mp-tela-6-4-branco-sm-a315gzwkzto_1591120276_gg.jpg",
+      "price": 1649
+    },
+    {
+      "id":"6",
+      "title":"Console Xbox One S 1TB Branco",
+      "image_url":"https://images8.kabum.com.br/produtos/fotos/113298/console-xbox-one-s-1tb-branco-star-wars-jedi-fallen-order-jogcm0072_1591445568_gg.jpg",
+      "price": 2052
+    },
+    {
+      "id":"7",
+      "title":"Monitor LG LED 29´ Ultrawide",
+      "image_url":"https://images8.kabum.com.br/produtos/fotos/102358/monitor-lg-led-29-ultrawide-ips-hdmi-freesync-29wk500_1561997689_gg.jpg",
+      "price": 1619
+    },
+    {
+      "id":"8",
+      "title":"Kit Gamer Logitech G Gear UP",
+      "image_url":"https://images1.kabum.com.br/produtos/fotos/112981/kit-gamer-logitech-g-gear-up-mouse-g203-rgb-mousepad-g240-teclado-g213-rgb-us-headset-g230-991-000287_1589987388_gg.jpg",
+      "price": 574
     }
   ]
 }

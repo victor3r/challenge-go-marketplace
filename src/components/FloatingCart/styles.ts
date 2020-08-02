@@ -12,7 +12,7 @@ export const Container = styled.View`
   align-items: center;
 `;
 
-export const CartPricing = styled.Text`
+export const CartPricing = styled.View`
   padding: 20px;
 `;
 
@@ -24,7 +24,6 @@ export const CartTotalPrice = styled.Text`
 
 export const CartButton = styled.TouchableOpacity`
   flex-direction: row;
-  background: #e83f5b;
 
   flex: 1;
   padding: 20px 20px;

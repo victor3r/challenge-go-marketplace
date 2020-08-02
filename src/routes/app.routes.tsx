@@ -13,18 +13,13 @@ import Logo from '../assets/logo.png';
 const App = createStackNavigator();
 
 const AppRoutes: React.FC = () => (
-  <App.Navigator
-    screenOptions={{
-      headerShown: true,
-      cardStyle: { backgroundColor: '#EBEEF8' },
-    }}
-    initialRouteName="Dashboard"
-  >
+  <App.Navigator screenOptions={{ headerShown: true }}>
     <App.Screen
       options={{
         headerShown: true,
         headerTransparent: true,
         headerTitle: () => <Image source={Logo} />,
+        headerTitleAlign: 'center',
       }}
       name="Dashboard"
       component={Dashboard}
@@ -38,7 +33,10 @@ const AppRoutes: React.FC = () => (
           marginLeft: 20,
         },
 
-        headerBackImage: () => <FeatherIcon name="chevron-left" size={24} />,
+        headerBackImage: () => (
+          <FeatherIcon name="chevron-left" size={24} color="#E83F5B" />
+        ),
+        headerTitleAlign: 'center',
       }}
       name="Cart"
       component={Cart}
