@@ -11,7 +11,7 @@ interface Product {
 export const Container = styled.SafeAreaView`
   flex: 1;
   align-items: center;
-  /* background: ${props => props.theme.background}; */
+  background: ${props => props.theme.background};
 `;
 
 export const ProductContainer = styled.View`
